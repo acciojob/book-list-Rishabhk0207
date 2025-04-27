@@ -25,6 +25,8 @@ document.addEventListener('DOMContentLoaded', function() {
         let buttonCol = document.createElement('td');
         let button = document.createElement('button');
         button.innerHTML = 'X';
+		button.style.color = "red";
+		button.classList.add('delete');
         button.addEventListener('click', function() {
             row.remove(); // Remove the row when the button is clicked
         });

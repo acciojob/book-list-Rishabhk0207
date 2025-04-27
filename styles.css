@@ -1,5 +1,4 @@
-/*  your css code here. If applicable */
-*{
+/*  your css code here. If applicable */*{
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -16,7 +15,7 @@ input{
     height: 30px;
 }
 
-.tabel{
+.table{
     width: 90%;
     border-collapse: collapse;
 }
