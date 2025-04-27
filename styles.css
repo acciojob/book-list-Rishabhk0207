@@ -1,1 +1,34 @@
 /*  your css code here. If applicable */
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    overflow-x: hidden;
+}
+
+h1{
+    text-align: center;
+    color: blue;
+}
+
+input{
+    width: 90%;
+    height: 30px;
+}
+
+.tabel{
+    width: 90%;
+    border-collapse: collapse;
+}
+
+th{
+    border-bottom: 1px solid  black;
+    padding-bottom: 10px;
+}
+
+
+td{
+    background-color:rgb(200, 203, 203) ;
+    padding: 10px;
+    text-align: center;
+}

@@ -1,16 +1,41 @@
 <!DOCTYPE html>
-
-<html>
+<html lang="en">
 
 <head>
-	<link rel="stylesheet" href="styles.css">
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Book List</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="icon"
+        href="https://media.istockphoto.com/id/495477978/photo/open-book.jpg?s=612x612&w=0&k=20&c=vwJ6__M7CVPdjkQFUv9j2pr7QJiQ9bWW_5jXjR9TcjY=" />
 </head>
 
 <body>
-	<!-- the entire body must be written by student -->
-    <script type="text/javascript" src="./script.js">
-</script>
+    <h1>MyBookList</h1>
+    <div class="form-group">
+        <form id="book-form">
+            Title<br/><input type="text" id="title" required> <br>
+            Author <br> <input type="text" id="author" required><br>
+            ISBN# <br><input type="text" id="isbn" required><br> <br>
+            <button type="submit" id="submit">Submit</button> <br><br><br>
+        </form>
+    </div>
 
+    <table class="tabel tabel-striped">
+        <thead>
+            <tr>
+                <th>Title</th>
+                <th>Author</th>
+                <th>ISBN#</th>
+                <th></th> <!-- Action column for delete button -->
+            </tr>
+        </thead>
+        
+        <tbody id="book-list">
+        </tbody>
+    </table>
+
+    <script src="script.js"></script>
 </body>
 
 </html>
